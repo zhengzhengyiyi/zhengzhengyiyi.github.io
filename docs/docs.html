@@ -1,1 +1,136 @@
-<p>try, test</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation - zhengzhengyiyi's Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            padding: 2rem 0;
+            margin-bottom: 2rem;
+        }
+        
+        .site-title {
+            font-size: 2.5rem;
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+        }
+        
+        .page-title {
+            font-size: 1.8rem;
+            color: #3498db;
+            margin: 2rem 0 1rem 0;
+        }
+        
+        nav {
+            background-color: white;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+        }
+        
+        .nav-container {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+        
+        .nav-link {
+            text-decoration: none;
+            color: #3498db;
+            font-weight: 500;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        
+        .nav-link:hover {
+            background-color: #ecf0f1;
+        }
+        
+        .docs-section {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+        }
+        
+        .doc-link {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 500;
+            transition: background-color 0.3s ease;
+            margin: 1rem 0;
+        }
+        
+        .doc-link:hover {
+            background-color: #2980b9;
+        }
+        
+        @media (max-width: 768px) {
+            .nav-container {
+                flex-direction: column;
+                gap: 1rem;
+            }
+            
+            .site-title {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="site-title">zhengzhengyiyi's Website</h1>
+            <p class="site-subtitle">Documentation Center</p>
+        </header>
+        
+        <main>
+            <div class="docs-section">
+                <h2 class="page-title">API Documentation</h2>
+                <p>Access the complete Javadoc documentation for all projects:</p>
+                
+                <a href="/docs/javadoc/javadoc_index.html" class="doc-link">View Javadoc Documentation</a>
+                
+                <p>The documentation includes detailed information about classes, methods, and usage examples.</p>
+            </div>
+            
+            <div class="docs-section">
+                <h2 class="page-title">Other Documentation</h2>
+                <p>Additional project documentation and guides:</p>
+                
+                <a href="#" class="doc-link">User Guide</a>
+                <a href="#" class="doc-link">API Reference</a>
+                <a href="#" class="doc-link">Tutorials</a>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

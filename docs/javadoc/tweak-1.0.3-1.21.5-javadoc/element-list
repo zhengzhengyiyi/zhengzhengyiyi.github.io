@@ -1,0 +1,9 @@
+io.github.zhengzhengyiyi.tweak_api
+io.github.zhengzhengyiyi.tweak_api.api.configure
+io.github.zhengzhengyiyi.tweak_api.api.event
+io.github.zhengzhengyiyi.tweak_api.configure
+io.github.zhengzhengyiyi.tweak_api.debug
+io.github.zhengzhengyiyi.tweak_api.debugger
+io.github.zhengzhengyiyi.tweak_api.example
+io.github.zhengzhengyiyi.tweak_api.mixin
+io.github.zhengzhengyiyi.tweak_api.mixin.client
