@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Javadoc Index - zhengzhengyiyi</title>
     <link rel="stylesheet" href="../../assets/stylesheets/javadoc_index.css">
+    <script src="../../assets/javascripts/selector.js"></script>
 </head>
 <body>
     <div class="container">
@@ -26,18 +27,6 @@
             <h2 class="section-title">Available Javadocs</h2>
             
             <div class="javadoc-grid">
-                <a href="./tweak-1.0.3-1.21.5-javadoc/index.html" class="javadoc-card">
-                    <div>
-                        <h3 class="card-title">Tweak Mod</h3>
-                        <p class="card-description">Complete API documentation for the Tweak modification library.</p>
-                    </div>
-                    <div class="card-meta">
-                        <span class="version-badge">v1.0.3</span>
-                        <span class="mc-version">MC 1.21.5</span>
-                        <span class="view-button">View Docs</span>
-                    </div>
-                </a>
-
                 <a href="./debughelper-1.0.4-javadoc/index.html" class="javadoc-card">
                     <div>
                         <h3 class="card-title">Debug Helper</h3>
@@ -49,6 +38,24 @@
                         <span class="view-button">View Docs</span>
                     </div>
                 </a>
+
+                <div class="javadoc-card">
+                    <h3 class="card-title">Tweak Mod</h3>
+                    <select class="version-select" onchange="updateVersion(this)">
+                        <option value="./tweak-1.0.3-1.21.5-javadoc/index.html">Version 1.0.3 (Latest)</option>
+                        <option value="./tweak-1.0.2-javadoc/index.html">Version 1.0.2</option>
+                        <option value="./tweak-1.0.1-javadoc/index.html">Version 1.0.1</option>
+                        <option value="./tweak-1.0.0-javadoc/index.html">Version 1.0.0</option>
+                    </select>
+                    <p class="card-description">Select version to view documentation</p>
+                    <div class="card-meta">
+                        <span class="version-badge">v1.0.3</span>
+                        <span class="mc-version">MC 1.21.5</span>
+                        <button class="view-button" onclick="openSelectedVersion(this)">View Docs</button>
+                    </div>
+                </div>
+
+                <!-- more cards insert here -->
             </div>
         </main>
     </div>
