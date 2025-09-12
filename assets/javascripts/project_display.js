@@ -38,7 +38,7 @@ projectsGrid.innerHTML=sortedProjects.map(project=>`
 </div>
 </div>
 <p class="last-updated">Updated ${getRelativeTimeString(project.updated||project.date_created||new Date())}</p>
-<a href="https://modrinth.com/project/${project.slug||project.id}" class="project-link" target="_blank">View on Modrinth</a>
+<a href="https://modrinth.com/mod/${project.slug||project.id}" class="project-link" target="_blank">View on Modrinth</a>
 </div>`).join('');
 loadingElement.style.display='none';
 projectsGrid.style.display='grid';}
