@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.zhengzhengyiyimc"},{"l":"com.zhengzhengyiyimc.config"},{"l":"com.zhengzhengyiyimc.hub"},{"l":"com.zhengzhengyiyimc.mixin"},{"l":"com.zhengzhengyiyimc.mixin.client"},{"l":"com.zhengzhengyiyimc.util"}];updateSearchResults();

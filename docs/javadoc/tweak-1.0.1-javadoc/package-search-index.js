@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"io.github.zhengzhengyiyi.tweak_api"},{"l":"io.github.zhengzhengyiyi.tweak_api.api.event"},{"l":"io.github.zhengzhengyiyi.tweak_api.example"},{"l":"io.github.zhengzhengyiyi.tweak_api.mixin"},{"l":"io.github.zhengzhengyiyi.tweak_api.mixin.client"}];updateSearchResults();

@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"io.github.zhengzhengyiyi"},{"l":"io.github.zhengzhengyiyi.gui"},{"l":"io.github.zhengzhengyiyi.mixin"},{"l":"io.github.zhengzhengyiyi.mixin.client"},{"l":"io.github.zhengzhengyiyi.util"}];updateSearchResults();
